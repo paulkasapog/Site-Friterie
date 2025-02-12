@@ -1,26 +1,80 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Friterie Belge</title> <!-- titre de la page -->
-        <link rel="stylesheet" href="style.css"> <!-- lien pour le css -->
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <img src="img/logo LA BELGE F'1024_1.jpg" alt="Logo de la Frite Belge">
-            </div>
-            <h1>Bienvenue à la friterie Belge</h1> <!-- titre principale de la page -->
-        </header>
-        <main>
-            <section id="intro">
-                <h2>Nos frites</h2> <!-- Sous-titre de la section -->
-                <p>Les meilleures frites belges, préparées avec soin !</p> <!-- Description de la friterie -->
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2025 Friterie Belge</p> <!-- Copyright -->
-        </footer>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+
+    <!-- titre de la page -->
+    <title>Friterie Belge</title>
+
+    <!-- lien pour le css -->
+    <link rel="stylesheet" href="style/style.css" />
+
+    <!-- gérer la taille de l'écran -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Description pour augmenter le SEO|| OUBLIE PAS D'EN RAJOUTÉ -->
+    <meta name="description" content="" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <ul class="nav">
+        <!-- logo avec lien vers l'accueil -->
+        <li class="menu-toogle">
+          <a href="index.html" id="menu-button">
+            <img
+              class="logo-small"
+              src="img/logo LA BELGE F.png"
+              alt="Logo de la belge frite"
+            />
+          </a>
+        </li>
+        <!-- Menu de navigation -->
+        <li><a href="histoire.html">Histoire</a></li>
+        <li><a href="adresse.html">Nos adresses</a></li>
+        <li><a href="carte.html">Notre carte</a></li>
+        <li><a href="contacte.html">Contacte</a></li>
+      </ul>
+      <!-- Menu de navigation pour telephone -->
+      <!-- <ul class="dropdown-menu" id="dropdown-menu">
+        <li><a href="histoire.html">Histoire</a></li>
+        <li><a href="adresse.html">Nos adresses</a></li>
+        <li><a href="carte.html">Notre carte</a></li>
+        <li><a href="contact.html">Contacte</a></li>
+      </ul> -->
+    </nav>
+    <header>
+      <!-- logo de la friterie -->
+      <img
+        class="logo-large"
+        src="img/logo LA BELGE F.png"
+        alt="Logo de la Frite Belge"
+      />
+      <!-- titre principale de la page -->
+      <h1>Bienvenue à la friterie Belge</h1>
+    </header>
+    <main>
+      <section id="intro">
+        <!-- Sous-titre de la section -->
+        <h2>La friterie Belge</h2>
+
+        <!-- Description de la friterie -->
+        <p>
+          La friterie Belge est une institution en Belgique. Nous vous proposons
+          les meilleures frites belges, préparées avec soin et dans le respect
+          de la tradition. Venez déguster nos frites dans l'une de nos adresses
+          !
+        </p>
+        <!-- Sous-titre de la section -->
+        <h2>Nos frites</h2>
+
+        <!-- Description de la friterie -->
+        <p>Les meilleures frites belges, préparées avec soin !</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Friterie Belge</p>
+      <!-- Coopyrite -->
+    </footer>
+  </body>
 </html>
