@@ -11,9 +11,21 @@
 .nav {
   display: flex;
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-evenly; /* Ou space-around */
   align-items: center;
 }
+
 .navbar {
   background-color: #fd2300;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4em;
+  transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 215, 0, 0.5);
 }
